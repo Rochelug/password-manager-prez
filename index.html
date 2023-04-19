@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>Rochelug - Mots de passes</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
@@ -16,8 +16,204 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<h3>Rochelug</h3>
+					<img
+						height="150"
+						src="img/Logo-1-300x300.png" 
+						alt="Logo Rochelug"
+					>
+					<h2>Parlons mots de passe</h2>
+					<p>Clément Dandrieux</p>
+				</section>
+				<section>
+					<h3>Au programme</h3>
+					<ul>
+						<li>Comprendre les risques</li>
+						<li>Bonnes pratiques</li>
+						<li>Gestionnaires de mot de passe</li>
+					</ul>	
+				</section>
+				<section>
+					<section>
+						<h2>Comprendre les risques</h2>
+						<p>Différents types d'attaques</p>
+					</section>
+					<section>
+						<h3>Brute force</h3>
+						<iframe src="https://giphy.com/embed/lF5bH6enH9F1m" width="480" height="257" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+						<p class="fragment" style="color: red">
+							Tester toutes les combinaisons possibles
+						</p>
+						<p class="fragment">
+							Comment s'en prémunir ?
+						</p>
+						<p class="fragment" style="color: green;">
+							Avoir un mot de passe complexe
+						</p>
+					</section>
+					<section>
+						<h3>
+							Dictionnary attack
+						</h3>
+						<iframe src="https://giphy.com/embed/WoWm8YzFQJg5i"  height="200" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+						<p class="fragment" style="color: red">
+							Tester des mots courants ou des informations personelles
+						</p>
+						<p class="fragment">
+							Comment s'en prémunir ?
+						</p>
+						<div class="fragment" style="color: green;">
+							<ul>
+								<li>
+									Pas d'informations personelles
+								</li>
+								<li>
+									Pas de mots ayant un sens
+								</li>
+							</ul>
+						</div>
+					</section>
+					<section>
+						<h3>Pishing</h3>
+						<iframe src="https://giphy.com/embed/eXOVOJLkK6G7S" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+						<p class="fragment" style="color: red">
+							Fabriquer un faux formulaire de mot de passe
+						</p>
+						<p class="fragment">
+							Comment s'en prémunir ?
+						</p>
+						<p class="fragment" style="color: green;">
+							Toujours vérifier le domaine du site sur lequel on tape son mot de passe
+						</p>
+					</section>
+					<section>
+						<h3>Shoulder surfing</h3>
+						<iframe src="https://giphy.com/embed/zQc8STzaOlJ3q" width="480" height="258" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+						<p class="fragment" style="color: red">
+							Regarder au dessus de votre épaule
+						</p>
+						<p class="fragment">
+							Comment s'en prémunir ?
+						</p>
+						<p class="fragment" style="color: green;">
+							Vérifier son entourage
+						</p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h3>Bonnes pratiques</h3>
+						<ul>
+							<li>Mots de passe complexes</li>
+							<li>Difficile à deviner</li>
+							<li>Changer régulièrement</li>
+							<li>Un service, un mot de passe</li>
+						</ul>
+					</section>
+					<section>
+						<h3>
+							Mais comment tous les retenir ?
+						</h3>
+						<iframe src="https://giphy.com/embed/IgLIVXrBcID9cExa6r" height="300" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+						<ul>
+							<li class="fragment">Les noter dans un carnet <span class="fragment">❌</span></li>
+							<li class="fragment">Utiliser un gestionnaire de mots de passe <span class="fragment">✅</span></li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h3>Gestionnaires de mot de passe</h3>
+						<p>Et pourquoi c'est bien</p>
+						<p>👍</p>
+					</section>
+					<section>
+						<h4>Avantages</h4>
+						<ul>
+							<li>Stocke vos mdp pour tous vos services</li>
+							<li>Fortement chiffré</li>
+							<li>Génère des mots de passe complexes</li>
+							<li>Dates d'expiration</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Écosystème Keepass</h3>
+						<ul>
+							<li>Logiciel libre</li>
+							<li>Recommandé par l'<a href="https://www.ssi.gouv.fr/">ANSSI</a></li>
+							<li>Fichier .kdbx : standard ouvert</li>
+							<li>Disponible sur toutes les plateformes</li>
+						</ul>
+					</section>
+					<section>
+						🖥️
+						<h3>Ordinateur</h3>
+						<p>KeepassXC</p>
+						<img src="img/keepassxc.svg" width="150" alt="KeepassXC logo">
+						<p>
+							<a href="https://keepassxc.org/">https://keepassxc.org/</a>
+						</p>
+					</section>
+					<section>
+						📱
+						<h3>Téléphone</h3>
+						<img src="img/keepassdx.svg" width="300" alt="KeepassXC logo">
+						<p>
+							<a href="https://www.keepassdx.com/">https://www.keepassdx.com/</a>
+						</p>
+					</section>
+				</section>
+
+				<section>
+					<section>
+						<h2>Atelier !</h2>
+						<ul>
+							<li>Installer KeepassXC sur votre poste</li>
+							<li>Créer une base de données de mots de passe</li>
+							<li>Générer ses premiers mots de passe</li>
+							<li>Installer l'extension Firefox</li>
+						</ul>
+					</section>
+					<section>
+						<h3>Installation</h3>
+						<pre>
+							<code data-trim data-noescape>
+								sudo apt install keepassxc
+							</code>
+						</pre>
+					</section>
+					<section>
+						<h3>Extension Firefox</h3>
+						<a href="https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/">https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/</a>
+					</section>
+				</section>
+				<section>
+					<section>
+						<h2>Pour aller plus loin</h2>
+						<ul>
+							<li>Authentification multi-facteurs</li>
+							<li>OTP et TOTP</li>
+							<li>Clés de sécurité</li>
+							<li>Biométriques</li>
+						</ul>
+					</section>
+					<section>
+						<h2>Conclusion</h2>
+					</section>
+					<section>
+						<p>
+							Merci !
+						</p>
+						<img
+							height="150"
+							src="img/Logo-1-300x300.png" 
+							alt="Logo Rochelug"
+						>
+					</section>
+				</section>
 			</div>
 		</div>
 

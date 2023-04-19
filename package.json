@@ -9,13 +9,13 @@
   "license": "MIT",
   "scripts": {
     "test": "gulp test",
-    "start": "gulp serve",
+    "start": "gulp serve --port=3000 --host=0.0.0.0",
     "build": "gulp build"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "https://hakim.se"
+    "name": "Clément Dandrieux",
+    "email": "clement.dandrieux+rochelug@proton.me",
+    "web": "https://rochelug.fr"
   },
   "repository": {
     "type": "git",
